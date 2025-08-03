@@ -37,6 +37,7 @@ async function main() {
     "id",
     "1"
   );
+  
   console.log("Data added to stream 'betterstack:website'");
 
   // Read all data from the stream
@@ -68,6 +69,7 @@ async function main() {
     "betterstack:website", // Stream name
     ">"
   );
+
   console.log(
     "Messages read from 'us' consumer group (second consumer):",
     messagesUS2
@@ -83,6 +85,7 @@ async function main() {
     "betterstack:website", // Stream name
     ">"
   );
+
   console.log(
     "Messages read from 'us' consumer group (third consumer):",
     messagesUS3
